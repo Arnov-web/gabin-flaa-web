@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabin Flaa - Teman Terbaik Untuk Waktu Santaimu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#3A3230', // Warna background utama
+                        cardbg: '#757575',     // Warna background card testimoni
+                        primary: '#EAE1D2',    // Warna teks cream & tombol
+                        textmuted: '#A8A39D',  // Warna teks paragraf
+                        footerbg: '#474747'    // Warna footer
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Mengatur tampilan scrollbar agar lebih elegan */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #3A3230; }
+        ::-webkit-scrollbar-thumb { background: #757575; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-background text-white antialiased">
+
+    <nav class="fixed w-full top-0 z-50 bg-background/90 backdrop-blur-md border-b border-white/10 py-4">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
+            <a href="#" class="text-primary font-bold text-xl tracking-wide">Gabin Flaa</a>
+            <div class="hidden md:flex gap-8 text-sm text-textmuted">
+                <a href="#varian-rasa" class="hover:text-primary transition">Varian Rasa</a>
+                <a href="#tentang-kami" class="hover:text-primary transition">Tentang Kami</a>
+                <a href="#testimoni" class="hover:text-primary transition">Testimoni</a>
+                <a href="#hubungi-kami" class="hover:text-primary transition">Hubungi Kami</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="pt-32 pb-16 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <div class="flex-1 space-y-6">
+        <h1 class="text-4xl md:text-5xl font-bold text-primary leading-tight">
+            Teman Terbaik Untuk Waktu Santaimu
+        </h1>
+        <p class="text-textmuted text-lg leading-relaxed">
+            Nikmati perpaduan sempurna biskuit renyah dengan isian fla yang lembut lumer di mulut. Tersedia dalam varian Cokelat, Tiramisu, dan Green Tea. Hanya Rp 20.000/pack (isi 6). Siap diantar langsung ke rumah Anda di area Makassar!
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=6281241574516&text=Halo%20Admin%20Gabin%20Flaa,%20saya%20tertarik%20untuk%20pesan!" target="_blank" 
+           class="inline-block bg-primary text-background font-semibold px-8 py-3 rounded-md hover:bg-white transition duration-300">
+            Pesan
+        </a>
+    </div>
+    <div class="flex-1 w-full flex items-center justify-center">
+        <img src="IMG-20260509-WA0054.jpg" 
+             alt="Gabin Flaa Hero" 
+             class="rounded-xl max-w-full h-auto object-contain max-h-[350px] md:max-h-[450px] shadow-lg">
+    </div>
+</section>
+
+    <section id="varian-rasa" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary mb-12">Varian Rasa</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="space-y-4">
+                <img src="IMG-20260602-WA0034.jpg" alt="Cokelat" class="w-full h-64 object-cover rounded-xl bg-gray-200">
+                <h3 class="text-xl text-primary font-semibold">Cokelat</h3>
+                <p class="text-textmuted text-sm">Rasa klasik yang selalu jadi favorit. Lumeran cokelat pekat yang manisnya pas, dijamin bikin mood kamu langsung naik!</p>
+            </div>
+            <div class="space-y-4">
+                <img src="IMG-20260602-WA0031.jpg" alt="Tiramisu" class="w-full h-64 object-cover rounded-xl bg-gray-200">
+                <h3 class="text-xl text-primary font-semibold">Tiramisu</h3>
+                <p class="text-textmuted text-sm">Sensasi aroma kopi dan krim yang elegan. Teksturnya yang lembut dan manisnya nggak bikin eneg, cocok banget buat teman ngopi.</p>
+            </div>
+            <div class="space-y-4">
+                <img src="IMG-20260602-WA0029.jpg" alt="Green Tea" class="w-full h-64 object-cover rounded-xl bg-gray-200">
+                <h3 class="text-xl text-primary font-semibold">Green Tea</h3>
+                <p class="text-textmuted text-sm">Pecinta matcha wajib merapat! Paduan rasa autentik yang menenangkan dengan biskuit renyah, rasanya unik dan bikin nagih.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang-kami" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row gap-12 items-center mb-24">
+    
+    <div class="flex-1 space-y-8">
+        <h2 class="text-3xl font-bold text-primary">Kenapa Harus Gabin Flaa?</h2>
+        <div class="space-y-6">
+            <div>
+                <h4 class="font-semibold text-primary text-lg mb-1">100% Homemade & Fresh</h4>
+                <p class="text-textmuted text-sm">Setiap potong Gabin Flaa diproduksi setiap hari menggunakan bahan-bahan pilihan berkualitas.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-primary text-lg mb-1">Porsi Puas, Harga Pas</h4>
+                <p class="text-textmuted text-sm">Hanya dengan Rp 20.000, Anda sudah mendapatkan satu kotak berisi 6 potong Gabin Flaa berukuran besar.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-primary text-lg mb-1">Pengiriman Cepat & Aman</h4>
+                <p class="text-textmuted text-sm">Kami sangat memperhatikan kualitas layanan pesan antar. Dengan pengaturan rute pengiriman yang terstruktur, pesanan dipastikan tiba tepat waktu.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-1 w-full flex justify-center md:justify-end">
+        <div class="w-full h-80 md:w-[400px] md:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
+            <img src="IMG-20260509-WA0044.jpg" 
+                 alt="Kenapa Gabin Flaa" 
+                 class="w-full h-full object-cover object-center">
+        </div>
+    </div>
+    
+</div>
+
+        <h2 class="text-3xl font-bold text-primary mb-10">Teman Sempurna di Setiap Suasana</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-4">
+                 <img src="Screenshot 2026-06-10 172925.png" alt="Mood Booster" class="rounded-xl w-full h-64 object-cover">
+                 <h3 class="text-xl text-primary font-semibold">Mood Booster Teman Nugas</h3>
+                 <p class="text-textmuted text-sm">Kehabisan energi saat mengejar deadline atau menyelesaikan laporan akhir? Kembalikan fokusmu dengan gigitan renyah dan manisnya gabin flaa.</p>
+            </div>
+            <div class="space-y-4">
+                <img src="Screenshot 2026-06-10 174929.png" alt="Cemilan Kumpul" class="rounded-xl w-full h-64 object-cover">
+                <h3 class="text-xl text-primary font-semibold">Cemilan Kumpul Bersama</h3>
+                <p class="text-textmuted text-sm">Porsi yang pas untuk dinikmati bersama. Hangatkan suasana obrolan keluarga atau teman terdekat dengan sajian praktis yang disukai semua lidah.</p>
+           </div>
+        </div>
+    </section>
+
+    <section id="testimoni" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary mb-12">Testimoni</h2>
+        <div class="columns-1 md:columns-3 gap-6 space-y-6">
+            
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Deh enak nya ini gabin !!"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Imran Jamal</p>
+                        <p class="text-gray-200 text-xs">Letting Nya Kanda Karca</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Enak bangetttt"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Andi Shafly</p>
+                        <p class="text-gray-200 text-xs">Pemain Piala Dunia Tahun 98</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Harga murah rasa luar biasa!"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Clive Moren</p>
+                        <p class="text-gray-200 text-xs">Mahasiswa Psikologi Hewan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Mantap tawwa ini barang, gasmi langsung beli"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Achmad Rifky</p>
+                        <p class="text-gray-200 text-xs">Ketua RT Wilayah Ablam</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Enak sekali ini gabin temani ka kerja tugas"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Andika Palian</p>
+                        <p class="text-gray-200 text-xs">Ketua RW Wilayah Ablam</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Saya bawa dari kampus sampai takalar masih enak"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Nur Salam Rafli</p>
+                        <p class="text-gray-200 text-xs">Orang Takalar Murni</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardbg p-6 rounded-xl break-inside-avoid">
+                <p class="text-white text-lg mb-6">"Saya beli gabin ini sebagai cemilan saat servis motor"</p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <div>
+                        <p class="text-white font-semibold text-sm">Reynaldo Montolalu</p>
+                        <p class="text-gray-200 text-xs">Andry Jaya Motor</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="hubungi-kami" class="bg-footerbg pt-20 pb-8 mt-20 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            
+            <div class="flex flex-col md:flex-row justify-between items-center bg-background border border-white/5 py-12 px-8 md:px-14 rounded-3xl mb-24 shadow-2xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8 md:mb-0">Minat? Hubungi Kami</h2>
+                <div class="flex items-center gap-5">
+                    <a href="https://api.whatsapp.com/send?phone=6281241574516&text=Halo%20Admin%20Gabin%20Flaa,%20saya%20tertarik%20untuk%20pesan!" target="_blank" 
+                       class="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 h-8 text-white" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=6281241574516&text=Halo%20Admin%20Gabin%20Flaa,%20saya%20tertarik%20untuk%20pesan!" target="_blank" 
+                       class="bg-primary text-background font-semibold px-8 py-3.5 rounded-xl hover:bg-white transition duration-300">
+                        Pesan Disini
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 text-sm mb-16">
+                
+                <div class="md:col-span-5 md:pr-8">
+                    <h3 class="text-primary text-2xl font-bold mb-6">Gabin Flaa</h3>
+                    <p class="text-textmuted leading-relaxed mb-8">Teman terbaik untuk waktu santaimu. Nikmati perpaduan sempurna biskuit renyah dengan isian fla yang lembut lumer di mulut.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-textmuted hover:bg-primary hover:text-background hover:border-primary transition-all duration-300">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=6281241574516" target="_blank" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-textmuted hover:bg-[#25D366] hover:text-white hover:border-[#25D366] transition-all duration-300">
+                             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:col-span-2">
+                    <h4 class="font-semibold text-primary tracking-widest text-xs uppercase mb-6">Tautan Pintas</h4>
+                    <ul class="space-y-4 text-textmuted">
+                        <li><a href="#varian-rasa" class="hover:text-primary transition-colors">Varian Rasa</a></li>
+                        <li><a href="#tentang-kami" class="hover:text-primary transition-colors">Tentang Kami</a></li>
+                        <li><a href="#testimoni" class="hover:text-primary transition-colors">Testimoni</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-2">
+                    <h4 class="font-semibold text-primary tracking-widest text-xs uppercase mb-6">Kontak</h4>
+                    <ul class="space-y-4 text-textmuted">
+                        <li>0812-4157-4516</li>
+                        <li>09.00 - 20.00 WITA</li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-3">
+                    <h4 class="font-semibold text-primary tracking-widest text-xs uppercase mb-6">Pengiriman</h4>
+                    <ul class="space-y-4 text-textmuted">
+                        <li>Area Makassar</li>
+                        <li>Kurir Instan (Grab/Gojek)</li>
+                        <li>Sistem Pre-Order</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/5 pt-8 text-center flex flex-col items-center">
+                <p class="text-textmuted text-sm">&copy; 2026 Gabin Flaa. All rights reserved.</p>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
