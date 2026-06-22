@@ -61,7 +61,6 @@
     </nav>
 
     <!-- HERO SECTION -->
-    <!-- Ditambahkan text-center di HP, text-left di Desktop -->
     <section id="beranda" class="pt-32 pb-16 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div class="flex-1 space-y-6 text-center md:text-left flex flex-col items-center md:items-start">
             <h1 class="text-4xl md:text-5xl font-bold text-primary leading-tight">
@@ -125,7 +124,6 @@
                 </div>
             </div>
 
-            <!-- Di HP dibatasi lebarnya agar portraitnya tetap cantik, di Desktop ikut pengaturan awal -->
             <div class="flex-1 w-full flex justify-center md:justify-end">
                 <div class="w-full max-w-[320px] h-[400px] md:max-w-[400px] md:h-[550px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
                     <img src="IMG-20260509-WA0044.jpg" alt="Kenapa Gabin Flaa" class="w-full h-full object-cover object-center hover:scale-105 transition duration-500">
@@ -156,7 +154,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Deh enak nya ini gabin !!"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="imran.jpg" alt="Imran Jamal" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Imran Jamal</p>
                         <p class="text-gray-200 text-xs">Letting Nya Kanda Karca</p>
@@ -167,7 +165,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Enak bangetttt"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="saply.jpg" alt="Andi Shafly" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Andi Shafly</p>
                         <p class="text-gray-200 text-xs">Pemain Piala Dunia Tahun 98</p>
@@ -178,7 +176,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Harga murah rasa luar biasa!"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="moren2.jpg" alt="Clive Moren" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Clive Moren</p>
                         <p class="text-gray-200 text-xs">Mahasiswa Psikologi Hewan</p>
@@ -189,7 +187,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Mantap tawwa ini barang, gasmi langsung beli"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="kiki.jpg" alt="Achmad Rifky" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Achmad Rifky</p>
                         <p class="text-gray-200 text-xs">Ketua RT Wilayah Ablam</p>
@@ -200,7 +198,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Enak sekali ini gabin temani ka kerja tugas"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="dika.jpg" alt="Andika Palian" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Andika Palian</p>
                         <p class="text-gray-200 text-xs">Ketua RW Wilayah Ablam</p>
@@ -211,7 +209,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Saya bawa dari kampus sampai takalar masih enak"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="rafli.jpg" alt="Nur Salam Rafli" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Nur Salam Rafli</p>
                         <p class="text-gray-200 text-xs">Orang Takalar Murni</p>
@@ -222,7 +220,7 @@
             <div class="bg-cardbg p-6 rounded-2xl shadow-md break-inside-avoid">
                 <p class="text-white text-lg mb-6">"Saya beli gabin ini sebagai cemilan saat servis motor"</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gray-400 rounded-full"></div>
+                    <img src="kokoh.jpg" alt="Reynaldo Montolalu" class="w-10 h-10 rounded-full object-cover">
                     <div>
                         <p class="text-white font-semibold text-sm">Reynaldo Montolalu</p>
                         <p class="text-gray-200 text-xs">Andry Jaya Motor</p>
@@ -310,12 +308,10 @@
         const menu = document.getElementById('mobile-menu');
         const links = document.querySelectorAll('.mobile-link');
 
-        // Fungsi klik ikon hamburger (Buka/Tutup Menu)
         btn.addEventListener('click', () => {
             menu.classList.toggle('hidden');
         });
 
-        // Fungsi menutup menu otomatis setelah link diklik
         links.forEach(link => {
             link.addEventListener('click', () => {
                 menu.classList.add('hidden');
